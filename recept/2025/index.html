@@ -1,16 +1,27 @@
 <html>
 <head>
+    <title>Tidéns fantastiska familjereceptssamlingsportal</title>
     <script type="text/javascript" src="yaml.min.0.3.0.js"></script>
     <script src="https://unpkg.com/petite-vue"></script>
     <meta charset="UTF-8"> 
     <link rel="stylesheet" href="style.css">
 
     <script type="module">
+        function onlyUnique(value, index, array) {
+            return array.indexOf(value) === index;
+        }
         let recepten = YAML.load('data.yml');
+
+
+        const urlParams = new URLSearchParams(window.location.search);
+        const q = urlParams.get('q');
+
+
         // alert(JSON.stringify(recepten));
         PetiteVue.createApp({
             recepten: recepten,
-            filter: 'lök',
+            allataggar: recepten.flatMap(recept => recept.tags).filter(onlyUnique).sort(),
+            filter: q,
             get receptenFiltered() {
                 if (this.filter) {
                     return recepten.filter(r => JSON.stringify(r).toUpperCase().indexOf(this.filter.toUpperCase()) !== -1);
@@ -36,11 +47,7 @@
             <input id="sök" type="text" v-model="filter"></input>
         </label>
         <div>
-            <a class="taggar" href="/vegetariskt/">Vegetariskt</a>
-            <a class="taggar" href="/kyckling/">Kyckling</a>
-            <a class="taggar" href="/köttfärs/">Köttfärs</a>
-            <a class="taggar" href="/pasta/">Pasta</a>
-     
+            <a class="taggar" :href="`/?q=${tag}`" v-for="tag in allataggar">{{tag}}</a>
         </div>
     </header>
     <main>
