@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.receptList {
+    background-color: firebrick;
+    display:flex; 
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.receptCard {
+    border-radius: 10px; 
+    background-color: salmon; 
+    border: 1px solid black; 
+    padding: 1rem;
+}
+
+.tag {
+    font-weight: 100; 
+    font-size: x-small;
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+.receptImage{
+    max-width: 200px;
+}
+
+header{
+    /*background-image: url('https://www.torebrings.se/bilder/kategori/godissnacksbars-1400.webp');
+    height: 200px;*/
+    background-color: violet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+   height: 400px;
+
+    h1 {
+        text-align: center;
+        color: white;
+        text-shadow: 2px 2px 2px black;
+        font-size: small;
+    }
+
+    div{
+       background-color:aqua;
+    }
+
+  a {
+    background-color: blue;
+    text-align: center;
+    padding: 1rem;
+
+    }
+}

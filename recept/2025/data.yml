@@ -1,0 +1,45 @@
+- name: Carbonara
+  ingredienser:
+    - 1 liter mjölk
+    - 1 lök
+  instruktioner:
+    - Stek löken mjuk
+    - Pilla dig i naveln
+  tags:
+    - Filip
+    - Lätt
+
+- name: Köttfärssås
+  ingredienser:
+    - 1 liter mjölk
+    - 400 g köttfärs
+  instruktioner:
+    - Stek löken mjuk
+    - Häll i resten
+  tags:
+    - Lätt
+    - Filip
+
+- name: Spenatlasagne
+  ingredienser:
+    - 400 g spenat
+    - 400 g lasagneplattor
+    - 1 lök
+  instruktioner:
+    - Stek
+  tags:
+    - vegetariskt
+    - pasta
+
+- name: Ponnykakor
+  ingredienser:
+    - 100 g smör
+    - 100 g choklar
+    - 300 g rispuffar
+  instruktioner:
+    - Smält ner allt i en kittel
+    - Kladda ihop allt i en stor bunke
+    - Smeta ut i en bakform
+    - Ställ svalt i flera timmar
+  tags:
+    - Ida

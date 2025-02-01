@@ -1,0 +1,66 @@
+<html>
+<head>
+    <script type="text/javascript" src="yaml.min.0.3.0.js"></script>
+    <script src="https://unpkg.com/petite-vue"></script>
+    <meta charset="UTF-8"> 
+    <link rel="stylesheet" href="style.css">
+
+    <script type="module">
+        let recepten = YAML.load('data.yml');
+        // alert(JSON.stringify(recepten));
+        PetiteVue.createApp({
+            recepten: recepten,
+            filter: 'lök',
+            get receptenFiltered() {
+                if (this.filter) {
+                    return recepten.filter(r => JSON.stringify(r).toUpperCase().indexOf(this.filter.toUpperCase()) !== -1);
+                } else {
+                    return recepten;
+                }
+            }
+        }).mount()
+    </script>
+</head>
+<!--- ----------------------------------------------------------------->
+<!--- ----------------------------------------------------------------->
+<!--- ----------------------------------------------------------------->
+<!--- ----------------------------------------------------------------->
+<!--- ----------------------------------------------------------------->
+
+<body>
+    <header>
+        <h1>Tidéns fantastiska familjereceptssamlingsportal</h1>
+
+        <label for="sök">
+            Sök här:
+            <input id="sök" type="text" v-model="filter"></input>
+        </label>
+        <div>
+            <a class="taggar" href="/vegetariskt/">Vegetariskt</a>
+            <a class="taggar" href="/kyckling/">Kyckling</a>
+            <a class="taggar" href="/köttfärs/">Köttfärs</a>
+            <a class="taggar" href="/pasta/">Pasta</a>
+     
+        </div>
+    </header>
+    <main>
+        
+        <div class="receptList">
+            <div v-for="recept in receptenFiltered" class="receptCard" >
+                <img class="receptImage" :src="recept.bild" alt="Receptbild">
+                <h2>{{recept.name}}</h2>
+                <span v-for="tag in recept.tags" class="tag">#{{tag}} </span>
+                <ul>
+                    <li v-for="ingrediens in recept.ingredienser">{{ingrediens}}</li>
+                </ul>
+                
+                <hr/>
+                <ol>
+                    <li v-for="instruktion in recept.instruktioner">{{instruktion}}</li>
+                </ol>
+            </div>
+        </div>
+    </main>
+    <footer>footer</footer>
+</body>
+</html>
