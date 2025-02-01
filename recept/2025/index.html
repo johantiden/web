@@ -47,7 +47,7 @@
             <input id="sök" type="text" v-model="filter"></input>
         </label>
         <div>
-            <a class="taggar" :href="`/?q=${tag}`" v-for="tag in allataggar">{{tag}}</a>
+            <a class="taggar" :href="`?q=${tag}`" v-for="tag in allataggar">{{tag}}</a>
         </div>
     </header>
     <main>
