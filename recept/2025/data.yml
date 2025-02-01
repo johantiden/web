@@ -82,21 +82,6 @@
     - vegetariskt
     - pasta
 
-- name: Ponnykakor
-  ingredienser:
-    - 100 g smör
-    - 100 g choklar
-    - 300 g rispuffar
-  instruktioner:
-    - Smält ner allt i en kittel
-    - Kladda ihop allt i en stor bunke
-    - Smeta ut i en bakform
-    - Ställ svalt i flera timmar
-  tags:
-    - Ida
-
-
-
 - name: Chokladbollar
   ingredienser:
     - 150 g smör
