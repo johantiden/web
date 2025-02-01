@@ -1,24 +1,75 @@
 - name: Carbonara
   ingredienser:
-    - 1 liter mjölk
-    - 1 lök
+    - 1 st      gul lök, hackad
+    - 2 paket   bacon
+    - 3 dl      grädde
+    - 2 dl      vitt vin
+    - 2 msk     franska örter
+    - 2 msk     färsk/fryst persilja
+    - 3 st      vitlöksklyftor
+    - 1 nypa    chilipulver
+    - 500 g     pasta
+    - 1 tsk     Alltingsmakargodarekrydda
   instruktioner:
-    - Stek löken mjuk
-    - Pilla dig i naveln
+    - Stek gula löken mjuk i en gryta (6-7)
+    - Stek baconen hård i en stekpanna (6-7)
+    - Koka pastavatten
+    - Franska örter
+    - Häll på vinet och blanda ordentligt i botten
+    - Vänta tills vinet nästan är borta
+    - Häll i grädden och sänk värmen till 5
+    - Låt sjuda en stund
+    - Smaka av med salt, chili, etc
+    - Häll i vitlök och halva persiljan
+    - Häll av pastan men spara vattnet
+    - Häll i pastan i grytan. Rör om försiktigt
+    - Häll i baconen i grytan. Rör om försiktigt
+    - Strössla resten av persiljan på toppen
   tags:
     - Filip
     - Lätt
 
 - name: Köttfärssås
   ingredienser:
-    - 1 liter mjölk
-    - 400 g köttfärs
+    - 1 kg  köttfärs
+    - 2 gula lökar, hackade
+    - 4 vitlöksklyftor
+    - 1 tomatkross
+    - 2 dl vatten
+    - 1 buljontärning "kött"
+    - 2 msk franska örter
+    - 2 dl crème fraiche
+    - 500 g pasta
+    - salt, peppar, chili, soya
   instruktioner:
-    - Stek löken mjuk
-    - Häll i resten
+    - Stek löken mjuk i en gryta
+    - Koka pastavatten
+    - Lägg i allt förutom sojan och låt sjuda en stund
+    - Smaka/färga av med sojan
+    - Smaka av med salt, peppar, chili
   tags:
     - Lätt
     - Filip
+
+- name: Spenatsoppa
+  ingredienser:
+    - ½ Gul lök, hackad
+    - 2 vitlöksklyftor, hackade
+    - 450 g fryst spenat
+    - 5 dl vatten
+    - 3 dl vispgrädde
+    - 2 tärninag grönsaksbuljong
+    - 4 kokta ägg
+    - salt, peppar, chili
+  instruktioner:
+    - Stek löken mjuk i en gryta
+    - Tillsätt spenat, vatten, grädde och smulad buljong. Koka upp och låt koka 6-8 min.
+    - Smaka av med salt, peppar, chili
+    - Skala äggen och skär i halvor
+  tags:
+    - Lätt
+    - vegetariskt
+
 
 - name: Spenatlasagne
   ingredienser:
@@ -43,3 +94,47 @@
     - Ställ svalt i flera timmar
   tags:
     - Ida
+
+
+
+- name: Chokladbollar
+  ingredienser:
+    - 150 g smör
+    - 1.5 dl strösocker
+    - 4-5 dl havregryn
+    - 4 msk kakao
+    - 1 tsk vaniljsocker
+    - 2 msk vätska (kaffe eller vatten)
+    - Garnityr på en tallrik, t.ex. pärlsocker och/eller strössel
+  instruktioner:
+    - Smör och socker i en stor bunke. Blanda med händerna
+    - Häll nästan all havregryn. Blanda med händerna
+    - Häll i kakao, vaniljsocker och vätska. Blanda med händerna
+    - Häll i mer havregryn om det är för kladdigt. Blanda med händerna
+    - Rulla bollar i händerna, vänd försiktigt på tallriken så att garnityrer fastnar
+  tags:
+    - godis
+
+- name: My Little Pony Risbräck
+  ingredienser:
+    - 200 g rispuffar
+    - 200 g smör
+    - 4 msk ljus sirap
+    - 150 g blockchoklad
+    - 150 g vit choklad
+    - 100 g marshmallows
+    - strössel
+    - karamellfärg
+  instruktioner:
+    - Smält mörk choklad och sirap i en stor kastrull på låg värme. Man kan behöva en lite sked för att skrapa ur sirapen.
+    - Blanda i rispuffar och marshmallows
+    - Smeta ut blandningen platt i en bakform
+    - Ställ in i kylen och låt svalna i några timmar
+    - Diska 🥰
+    - Skär ut rutor med en kniv
+    - Smält vit cholkad och blanda i karamellfärg
+    - Spritsa eller kleta på med en sked på varje bit
+    - Strössel
+  tags:
+    - Ida
+    - godis
