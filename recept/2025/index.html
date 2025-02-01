@@ -47,7 +47,7 @@
             <input id="sök" type="text" v-model="filter"></input>
         </label>
         <div>
-            <a class="taggar" :href="`?q=${tag}`" v-for="tag in allataggar">{{tag}}</a>
+            <a class="taggar" :href="`?q=${tag}`" v-for="tag in allataggar">#{{tag}}</a>
         </div>
     </header>
     <main>
@@ -56,7 +56,7 @@
             <div v-for="recept in receptenFiltered" class="receptCard" >
                 <img class="receptImage" :src="recept.bild" alt="Receptbild">
                 <h2>{{recept.name}}</h2>
-                <span v-for="tag in recept.tags" class="tag">#{{tag}} </span>
+                <a class="taggar" :href="`?q=${tag}`" v-for="tag in recept.tags">#{{tag}}</a>
                 <ul>
                     <li v-for="ingrediens in recept.ingredienser">{{ingrediens}}</li>
                 </ul>
