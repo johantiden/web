@@ -1,48 +1,12 @@
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 
 
-.receptList {
-    /* background-color: firebrick; */
-    display:flex; 
-    gap: 3rem;
-    flex-wrap: wrap;
-}
-
-.receptCard {
-    border-radius: 10px; 
-    /* background-color: salmon;  */
-    border: 1px solid black; 
-    padding: 1rem;
-    box-shadow: 2px 2px 15px black;
-}
-
-.cardTag {
-    font-weight: 100; 
-    font-size: x-small;
-}
-
-.navTaggarDiv {
-    display: flex;
-    gap: 1rem;
-    /* background-color:aqua; */
-}
-
-.navTag {
-    background-color: blue;
-    text-align: center;
-    color: white;
-    border-radius: 10px;
-    padding: 1rem;
-}
 
 h2 {
     margin-bottom: 0;
-}
-
-.receptImage{
-    max-width: 200px;
 }
 
 header{
@@ -62,5 +26,47 @@ header{
         color: white;
         text-shadow: 2px 2px 2px black;
         font-size: small;
+    }
+
+    .navTaggarDiv {
+        display: flex;
+        gap: 1rem;
+        /* background-color:aqua; */
+    }
+
+    .navTag {
+        background-color: blue;
+        text-align: center;
+        color: white;
+        border-radius: 10px;
+        padding: 1rem;
+    }
+}
+
+main {
+    padding: 3rem;
+
+    .receptList {
+        /* background-color: firebrick; */
+        display:flex; 
+        gap: 3rem;
+        flex-wrap: wrap;
+    }
+    
+    .receptCard {
+        border-radius: 10px; 
+        /* background-color: salmon;  */
+        border: 1px solid black; 
+        padding: 1rem;
+        box-shadow: 2px 2px 15px black;
+    
+        .receptImage{
+            max-width: 200px;
+        }
+    }
+    
+    .cardTag {
+        font-weight: 100; 
+        font-size: x-small;
     }
 }
