@@ -10,25 +10,29 @@
         function onlyUnique(value, index, array) {
             return array.indexOf(value) === index;
         }
-        let recepten = YAML.load('data.yml');
+        let allaRecepten = YAML.load('data.yml');
 
 
         const urlParams = new URLSearchParams(window.location.search);
         const q = urlParams.get('q');
+        const r = urlParams.get('r');
 
+        const page = r !== null ? 'article' : 'list';
 
-        // alert(JSON.stringify(recepten));
         PetiteVue.createApp({
-            recepten: recepten,
-            allataggar: recepten.flatMap(recept => recept.tags).filter(onlyUnique).sort(),
+            page: page,
+            allaRecepten: allaRecepten,
+            allaTaggar: allaRecepten.flatMap(recept => recept.tags).filter(onlyUnique).sort(),
             filter: q,
+            recept: allaRecepten.filter(recept => recept.name === r)[0],
             get receptenFiltered() {
                 if (this.filter) {
-                    return recepten.filter(r => JSON.stringify(r).toUpperCase().indexOf(this.filter.toUpperCase()) !== -1);
+                    return allaRecepten.filter(r => JSON.stringify(r).toUpperCase().indexOf(this.filter.toUpperCase()) !== -1);
                 } else {
-                    return recepten;
+                    return allaRecepten;
                 }
-            }
+            },
+ 
         }).mount()
     </script>
 </head>
@@ -40,32 +44,37 @@
 
 <body>
     <header>
-        <h1>Tidéns fantastiska familjereceptssamlingsportal</h1>
+        <a href="?q"><h1>Tidéns fantastiska familjereceptssamlingsportal</h1></a>
 
         <label for="sök">
             Sök här:
             <input id="sök" type="text" v-model="filter"></input>
         </label>
-        <div>
-            <a class="taggar" :href="`?q=${tag}`" v-for="tag in allataggar">#{{tag}}</a>
+        <div class="navTaggarDiv">
+            <a class="navTag" :href="`?q=${tag}`" v-for="tag in allaTaggar">#{{tag}}</a>
         </div>
     </header>
     <main>
-        
-        <div class="receptList">
+        <div class="receptList" v-if="page === 'list'">
             <div v-for="recept in receptenFiltered" class="receptCard" >
                 <img class="receptImage" :src="recept.bild" alt="Receptbild">
-                <h2>{{recept.name}}</h2>
-                <a class="taggar" :href="`?q=${tag}`" v-for="tag in recept.tags">#{{tag}}</a>
-                <ul>
-                    <li v-for="ingrediens in recept.ingredienser">{{ingrediens}}</li>
-                </ul>
-                
-                <hr/>
-                <ol>
-                    <li v-for="instruktion in recept.instruktioner">{{instruktion}}</li>
-                </ol>
+                <a :href="`?r=${recept.name}`"><h2>{{recept.name}}</h2></a>
+                <a class="cardTag" :href="`?q=${tag}`" v-for="tag in recept.tags">#{{tag}}</a>
             </div>
+        </div>
+
+        <div class="article" v-if="page === 'article'">
+            <img class="receptImage" :src="recept.bild" alt="Receptbild">
+            <h2>{{recept.name}}</h2>
+            <a class="cardTag" :href="`?q=${tag}`" v-for="tag in recept.tags">#{{tag}}</a>
+            <ul>
+                <li v-for="ingrediens in recept.ingredienser">{{ingrediens}}</li>
+            </ul>
+            
+            <hr/>
+            <ol>
+                <li v-for="instruktion in recept.instruktioner">{{instruktion}}</li>
+            </ol>
         </div>
     </main>
     <footer>footer</footer>
