@@ -2,13 +2,13 @@
   ingredienser:
     - 1 st      gul lök, hackad
     - 2 paket   bacon
-    - 3 dl      grädde
+    - 3 dl      matlagningsgrädde
     - 2 dl      vitt vin
     - 2 msk     franska örter
     - 2 msk     färsk/fryst persilja
     - 3 st      vitlöksklyftor
     - 1 nypa    chilipulver
-    - 500 g     pasta
+    - 500 g     spaghetti
     - 1 tsk     Alltingsmakargodarekrydda
   instruktioner:
     - Stek gula löken mjuk i en gryta (6-7)
@@ -29,6 +29,7 @@
   tags:
     - Filip
     - Lätt
+    - pasta
 
 - name: Köttfärssås
   ingredienser:
