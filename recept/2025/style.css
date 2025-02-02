@@ -52,24 +52,90 @@ main {
 
 .receptList {
   /* background-color: firebrick; */
-  display: flex;
   gap: 3rem;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+@media only screen and (max-width: 1200px) {
+    .receptList {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .receptList {
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 .receptCard {
   border-radius: 10px;
   /* background-color: salmon;  */
-  border: 1px solid black;
+  border: 1px solid gray;
+  box-shadow: 2px 2px 15px gray;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.receptCardImage {
+  width: 100%;
+  max-height: 110px;
+  border-radius: 10px 10px 0 0;
+  object-fit: cover;
+  border-bottom: 1px solid gray;
+}
+
+.cardContentUnderImage {
   padding: 1rem;
-  box-shadow: 2px 2px 15px black;
 }
 
-.receptImage {
-  max-width: 200px;
+.cardTags {
+    display: flex;
+    gap: 0.5rem;
 }
-
 .cardTag {
   font-weight: 100;
   font-size: x-small;
 }
+
+.receptCardInstruction {
+    display: none;
+}
+
+.receptPageImage {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+
+@media print {
+    /* All your print styles go here */
+    header,
+    footer,
+    nav,
+    .receptPageImage,
+    .receptCardImage {
+      display: none !important;
+    }
+
+    .receptList {
+        display: unset;
+    }
+    .receptCard {
+      clear: both;
+      page-break-after: always;
+      box-shadow: none;
+      border: none;
+    }
+    .receptCardInstruction {
+        display: block;
+    }
+
+    ul {
+        margin-bottom: 1rem;
+    }
+  }
+  

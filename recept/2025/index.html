@@ -63,9 +63,24 @@
         <!-------------------------------------------------------------------->
         <div class="receptList" v-if="page === 'list'">
             <div v-for="recept in receptenFiltered" class="receptCard" >
-                <img class="receptImage" :src="recept.bild" alt="Receptbild">
-                <a :href="`?r=${recept.name}`"><h2>{{recept.name}}</h2></a>
-                <a class="cardTag" :href="`?q=${tag}`" v-for="tag in recept.tags">#{{tag}}</a>
+                <a :href="`?r=${recept.name}`"><img class="receptCardImage" :src="recept.bild" alt="Receptbild"></a>
+                <div class="cardContentUnderImage">
+                    <a :href="`?r=${recept.name}`"><h2>{{recept.name}}</h2></a>
+                    <div class="cardTags">
+                        <a class="cardTag" :href="`?q=${tag}`" v-for="tag in recept.tags">#{{tag}}</a>
+                    </div>
+
+                    <!-- NOTE that receptCardInstruction is only visible when printing! -->
+                    <div class="receptCardInstruction">
+                        <ul>
+                            <li v-for="ingrediens in recept.ingredienser">{{ingrediens}}</li>
+                        </ul>
+                        
+                        <ol>
+                            <li v-for="instruktion in recept.instruktioner">{{instruktion}}</li>
+                        </ol>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -77,7 +92,7 @@
         <!----------------------------RECEPTSIDAN----------------------------->
         <!-------------------------------------------------------------------->
         <div class="article" v-if="page === 'article'">
-            <img class="receptImage" :src="recept.bild" alt="Receptbild">
+            <img class="receptPageImage" :src="recept.bild" alt="Receptbild">
             <h2>{{recept.name}}</h2>
             <a class="cardTag" :href="`?q=${tag}`" v-for="tag in recept.tags">#{{tag}}</a>
             <ul>
@@ -92,6 +107,5 @@
         <!-------------------------------------------------------------------->
 
     </main>
-    <footer>footer</footer>
 </body>
 </html>
