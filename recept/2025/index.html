@@ -1,6 +1,5 @@
 <html>
 <head>
-    <title>Tidéns fantastiska familjereceptssamlingsportal</title>
     <script type="text/javascript" src="yaml.min.0.3.0.js"></script>
     <script src="https://unpkg.com/petite-vue"></script>
     <meta charset="UTF-8"> 
@@ -14,17 +13,19 @@
 
 
         const urlParams = new URLSearchParams(window.location.search);
-        const q = urlParams.get('q');
-        const r = urlParams.get('r');
+        const q = urlParams.get('q') ?? '';
+        const r = urlParams.get('r') ?? '';
 
-        const page = r !== null ? 'article' : 'list';
-
+        const page = r ? 'article' : 'list';
+        const titleSuffix = `${r}${q}`.length > 0 ? ` - ${r}${q}` : '';
+        const title = `Tidéns fantastiska familjereceptssamlingsportal${titleSuffix}`;
         PetiteVue.createApp({
             page: page,
             allaRecepten: allaRecepten,
             allaTaggar: allaRecepten.flatMap(recept => recept.tags).filter(onlyUnique).sort(),
             filter: q,
             recept: allaRecepten.filter(recept => recept.name === r)[0],
+            title: title,
             get receptenFiltered() {
                 if (this.filter) {
                     return allaRecepten.filter(r => JSON.stringify(r).toUpperCase().indexOf(this.filter.toUpperCase()) !== -1);
@@ -35,6 +36,8 @@
  
         }).mount()
     </script>
+
+    <title>{{title}}</title>
 </head>
 <!-------------------------------------------------------------------->
 <!-------------------------------------------------------------------->
