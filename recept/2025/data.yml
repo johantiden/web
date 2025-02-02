@@ -20,7 +20,7 @@
     - Häll i grädden, vitlök och halva persiljan
     - Koka upp och sänk värmen till 5
     - Låt sjuda en stund
-    - Städa ⚪
+    - Diska 🥰
     - Smaka av med salt, chili, etc
     - Häll av pastan men spara vattnet
     - Häll i pastan i grytan. Rör om försiktigt
@@ -47,13 +47,16 @@
   instruktioner:
     - Stek löken mjuk i en gryta
     - Koka pastavatten
-    - Lägg i allt förutom sojan och låt sjuda en stund
+    - Lägg i allt förutom sojan
+    - Släng i lite rester 💚
+    - Låt sjuda en stund
     - Smaka/färga av med sojan
     - Smaka av med salt, peppar, chili
   bild: https://res.cloudinary.com/coopsverige/image/upload/f_auto,fl_progressive,q_90,g_center,h_800,w_800/v1679315482/cloud/277230.jpg
   tags:
     - Lätt
     - Filip
+    - SlängIResternaOckså
 
 - name: Spenatsoppa
   ingredienser:
@@ -75,18 +78,6 @@
     - Lätt
     - vegetariskt
     - Filip
-
-- name: Spenatlasagne
-  ingredienser:
-    - 400 g spenat
-    - 400 g lasagneplattor
-    - 1 lök
-  instruktioner:
-    - Stek
-  bild: https://res.cloudinary.com/coopsverige/image/upload/f_auto,fl_progressive,q_90,g_center,h_800,w_800/v1620658168/428825.jpg
-  tags:
-    - vegetariskt
-    - pasta
 
 - name: Chokladbollar
   ingredienser:
@@ -132,3 +123,24 @@
   tags:
     - Ida
     - godis
+
+- name: Ugnspannkaka
+  ingredienser:
+    - 8 dl mjölk
+    - 4 dl mjöl
+    - 4 ägg
+    - 1 paket bacon el. dylikt
+    - Steksmör
+  instruktioner:
+    - Sätt på ugnen på 225 grader
+    - Klipp bacon i bitar i långpanna
+    - Stek i ugnen tills krispigt
+    - Blanda mjölk, ägg, mjöl i en stor bunke
+    - Släng i lite rester 💚
+    - Salta efter smak
+    - Skjuts in i ugnen, ca 20 minuter
+    - Diska 🥰
+    - Servera med sylt
+  bild: https://cdn-rdb.arla.com/Files/arla-se/536038896/2a052d77-f4c4-4b65-bb00-891aa6495d48.jpg?crop=(0,30,0,-210)&w=1200&h=630&mode=crop&ak=f525e733&hm=5a385847
+  tags: 
+    - SlängIResternaOckså

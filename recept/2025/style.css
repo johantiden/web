@@ -116,6 +116,7 @@ main {
     header,
     footer,
     nav,
+    input,
     .receptPageImage,
     .receptCardImage {
       display: none !important;
@@ -124,12 +125,14 @@ main {
     .receptList {
         display: unset;
     }
+    
     .receptCard {
       clear: both;
       page-break-after: always;
       box-shadow: none;
       border: none;
     }
+
     .receptCardInstruction {
         display: block;
     }
