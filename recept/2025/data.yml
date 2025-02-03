@@ -145,3 +145,26 @@
   tags: 
     - SlängIResternaOckså
     - Lätt
+
+- name: Korv Stroganoff
+  ingredienser:
+    - 1 lök, hackad
+    - 1 dl vin
+    - 3 vitlöksklyftor
+    - 3 dl grädde
+    - 200 g tomatpuré
+    - 1 falukorv, strimlad
+    - 3 dl ris
+    - 2 msk franska örter
+  instruktioner:
+    - Stek löken mjuk i en gryta (6-7)
+    - Koka ris
+    - Häll i falukorven och stek tills stekyta
+    - Häll i och tomatpuré och franska örter
+    - Häll i vinet och rör i botten av grytan
+    - Häll i grädde och vitlök
+    - Koka upp och sänk värmen
+    - Smaka av med salt, peppar, chili och eventuellt vatten
+  tags:
+    - Lätt
+    
