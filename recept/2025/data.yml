@@ -1,15 +1,15 @@
-- name: Carbonara
+- name:  Carbonara
   ingredienser:
-    - 1 st      gul lök, hackad
-    - 2 paket   bacon
-    - 3 dl      matlagningsgrädde
-    - 2 dl      vitt vin
-    - 2 msk     franska örter
-    - 2 msk     färsk/fryst persilja
-    - 3 st      vitlöksklyftor
-    - 1 nypa    chilipulver
-    - 500 g     spaghetti
-    - 1 tsk     Alltingsmakargodarekrydda
+    - 1 st:Gul lök, hackad
+    - 2 paket:Bacon
+    - 3 dl:Matlagningsgrädde
+    - 2 dl:Vitt vin
+    - 2 msk:Franska örter
+    - 2 msk:Färsk/fryst persilja
+    - 3 st:Vitlöksklyftor
+    - 500 g:Spaghetti
+    - 1 tsk:Alltingsmakargodarekrydda
+    - chilipulver
   instruktioner:
     - Stek gula löken mjuk i en gryta (6-7)
     - Stek baconen hård i en stekpanna (6-7)
@@ -32,17 +32,17 @@
     - Lätt
     - pasta
 
-- name: Köttfärssås
+- name:  Köttfärssås
   ingredienser:
-    - 1 kg  köttfärs
-    - 2 gula lökar, hackade
-    - 4 vitlöksklyftor
-    - 1 tomatkross
-    - 2 dl vatten
-    - 1 buljontärning "kött"
-    - 2 msk franska örter
-    - 2 dl crème fraiche
-    - 500 g pasta
+    - 1000 g:Köttfärs
+    - 2 st:Gula lökar, hackade
+    - 4 st:Vitlöksklyftor
+    - 400 g:Krossade tomater
+    - 2 dl:Vatten
+    - 1 st:Buljontärning "kött"
+    - 2 msk:Franska örter
+    - 2 dl:Crème fraiche
+    - 500 g:Pasta
     - salt, peppar, chili, soya
   instruktioner:
     - Stek löken mjuk i en gryta
@@ -60,15 +60,16 @@
 
 - name: Spenatsoppa
   ingredienser:
-    - ½ Gul lök, hackad
-    - 2 vitlöksklyftor, hackade
-    - 450 g fryst spenat
-    - 5 dl vatten
-    - 3 dl vispgrädde
-    - 2 tärninag grönsaksbuljong
-    - 4 kokta ägg
+    - ½ st:Gul lök, finhackad
+    - 2 st:Vitlöksklyftor, hackade
+    - 450 g:Fryst spenat
+    - 5 dl:Vatten
+    - 3 dl:Vispgrädde
+    - 2 st:Buljontärningar "Grönsak"
+    - 4 st:Ägg, kokta
     - salt, peppar, chili
   instruktioner:
+    - Koka ägg, hellre för hårt än för löst
     - Stek löken mjuk i en gryta
     - Tillsätt spenat, vatten, grädde och smulad buljong. Koka upp och låt koka 6-8 min.
     - Smaka av med salt, peppar, chili
@@ -81,12 +82,12 @@
 
 - name: Chokladbollar
   ingredienser:
-    - 150 g smör
-    - 1.5 dl strösocker
-    - 4-5 dl havregryn
-    - 4 msk kakao
-    - 1 tsk vaniljsocker
-    - 2 msk vätska (kaffe eller vatten)
+    - 150 g:Smör
+    - 1.5 dl:Strösocker
+    - 4-5 dl:Havregryn
+    - 4 msk:Kakao
+    - 1 tsk:Vaniljsocker
+    - 2 msk:Vätska (kaffe eller vatten)
     - Garnityr på en tallrik, t.ex. pärlsocker och/eller strössel
   instruktioner:
     - Smör och socker i en stor bunke. Blanda med händerna
@@ -101,14 +102,14 @@
 
 - name: My Little Pony Risbräck
   ingredienser:
-    - 200 g rispuffar
-    - 200 g smör
-    - 4 msk ljus sirap
-    - 150 g blockchoklad
-    - 150 g vit choklad
-    - 100 g marshmallows
-    - strössel
-    - karamellfärg
+    - 200 g:Rispuffar
+    - 200 g:Smör
+    - 4 msk:Ljus sirap
+    - 150 g:Blockchoklad
+    - 150 g:Vit choklad
+    - 100 g:Marshmallows
+    - Strössel
+    - Karamellfärg
   instruktioner:
     - Smält mörk choklad och sirap i en stor kastrull på låg värme. Man kan behöva en lite sked för att skrapa ur sirapen.
     - Blanda i rispuffar och marshmallows
@@ -126,10 +127,10 @@
 
 - name: Ugnspannkaka
   ingredienser:
-    - 8 dl mjölk
-    - 4 dl mjöl
-    - 4 ägg
-    - 1 paket bacon el. dylikt
+    - 8 dl:Mjölk
+    - 4 dl:Mjöl
+    - 4 st:Ägg
+    - 1 paket:Bacon el. dylikt
     - Steksmör
   instruktioner:
     - Sätt på ugnen på 225 grader
@@ -142,20 +143,20 @@
     - Diska 🥰
     - Servera med sylt
   bild: https://cdn-rdb.arla.com/Files/arla-se/536038896/2a052d77-f4c4-4b65-bb00-891aa6495d48.jpg?crop=(0,30,0,-210)&w=1200&h=630&mode=crop&ak=f525e733&hm=5a385847
-  tags: 
+  tags:
     - SlängIResternaOckså
     - Lätt
 
 - name: Korv Stroganoff
   ingredienser:
-    - 1 lök, hackad
-    - 1 dl vin
-    - 3 vitlöksklyftor
-    - 3 dl grädde
-    - 200 g tomatpuré
-    - 1 falukorv, strimlad
-    - 3 dl ris
-    - 2 msk franska örter
+    - 1 st:Gul lök, hackad
+    - 1 dl:Vitt vin
+    - 3 st:Vitlöksklyftor
+    - 3 dl:Grädde
+    - 200 g:Tomatpuré
+    - 1 st:Falukorv, strimlad
+    - 3 dl:Ris
+    - 2 msk:Franska örter
   instruktioner:
     - Stek löken mjuk i en gryta (6-7)
     - Koka ris
@@ -172,13 +173,13 @@
 
 - name: Morot- och linsbiffar
   ingredienser:
-    - 2 dl röda linser, torkade, blötlagda
-    - 1 st vitlöksklyfta
-    - 1 msk jordnötssmör eller tahini
-    - 3 st morötter, grovt rivna
-    - 1 msk potatismjöl
-    - 1 msk sesamfrön
-    - 1 msk persilja
+    - 2 dl:Röda linser, torkade, blötlagda
+    - 1 st:Vitlöksklyfta
+    - 1 msk:Jordnötssmör eller tahini
+    - 3 st:Morötter, grovt rivna
+    - 1 msk:Potatismjöl
+    - 1 msk:Sesamfrön
+    - 1 msk:Persilja
   instruktioner:
     - Mixa linser, vitlöksklyfta och jordnötssmör/tahini fint i en mixer
     - Blanda i morot, potatismjöl, sesamfrön, persilja, salt och peppar i en bunke
@@ -188,4 +189,14 @@
   tags:
     - vegetariskt
 
+- name: Pasta med makrill
+  ingredienser:
+    - 500 g:Pasta
+    - 3 burkar:Makrill
+  instruktioner:
+    - Koka pasta al dente
+    - Blanda i makrillen
+  bild: https://www.landleyskok.se/wp-content/uploads/2011/08/makrillpasta_DSC0002-540x437.jpg
+  tags:
+    - Lätt
 

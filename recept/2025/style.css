@@ -3,6 +3,83 @@
   margin: 0;
 }
 
+/*CUsTOM CHECKBOX INSPIRED BY https://www.w3schools.com/howto/howto_css_custom_checkbox.asp*/
+
+ /* Customize the label (the container) */
+ .container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+} 
+/*END CUSTOM CHECKBOX*/
+
+
+
+hr{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
 h2 {
   margin-bottom: 0;
 }
@@ -10,14 +87,15 @@ h2 {
 header {
   /*background-image: url('https://www.torebrings.se/bilder/kategori/godissnacksbars-1400.webp');
     height: 200px;*/
-  background-color: violet;
+  /* background-color: violet; */
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   padding-bottom: 20px;
-  height: 300px;
+  /* height: 300px; */
   gap: 2rem;
+  padding-top: 1rem;
 
   h1 {
     text-align: center;
@@ -39,11 +117,11 @@ a:link {
 }
 
 .navTag {
-  background-color: blue;
+  background-color: #EEEEEE;
   text-align: center;
-  color: white;
-  border-radius: 10px;
   padding: 1rem;
+  border: 1px solid gray;
+  box-shadow: 2px 2px 1px gray;
 }
 
 main {
@@ -76,12 +154,12 @@ main {
     }
 }
 
-.receptCard {
-  border-radius: 10px;
-  /* background-color: salmon;  */
+.card {
   border: 1px solid gray;
-  box-shadow: 2px 2px 15px gray;
+  box-shadow: 2px 2px 1px gray;
+}
 
+.receptCard {
   display: flex;
   flex-direction: column;
 }
@@ -89,7 +167,6 @@ main {
 .receptCardImage {
   width: 100%;
   max-height: 110px;
-  border-radius: 10px 10px 0 0;
   object-fit: cover;
   border-bottom: 1px solid gray;
 }
@@ -111,20 +188,46 @@ main {
     display: none;
 }
 
+.instruktion,
+.ingrediens {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    gap: 0.5rem;
+}
 
+.ingrediens > span,
+.instruktion > span {
+  display: flex;
+  align-items: center;
+  flex: 0;
+  justify-content: space-between;
+  min-width: 90px;
+  /* background-color: red; */
+  text-align: right;
+  gap: 0.5rem;
+  height: 2rem;
+}
 
 .article {
     max-width: 800px;
+    margin: auto;
 }
 
 .receptPageImage {
     width: 100%;
-    max-height: 200px;
+    max-height: 300px;
     object-fit: cover;
 }
 
+.receptPageBelowImage {
+  padding: 1rem;
+}
 
-
+input {
+  height: 2rem;
+  border: 1px solid gray;
+}
 
 @media print {
     /* All your print styles go here */
@@ -135,6 +238,7 @@ main {
     .receptPageImage,
     .receptCardImage {
       display: none !important;
+      font-size: larger;
     }
 
     .receptList {
@@ -144,7 +248,6 @@ main {
     .receptCard {
       clear: both;
       page-break-after: always;
-      box-shadow: none;
       border: none;
     }
 
@@ -152,6 +255,10 @@ main {
         display: block;
     }
 
+    .card {
+      box-shadow: none;
+      border: none;
+    }
     ul {
         margin-bottom: 1rem;
     }
