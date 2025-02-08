@@ -82,18 +82,20 @@
       <a href="?q"><h1>Tidéns fantastiska familjereceptssamlingsportal</h1></a>
 
       <input id="sök" type="text" v-model="filter" placeholder="Sök" />
-      <div class="navTaggarDiv">
-        <a class="navTag" :href="`?q=${tag}`" v-for="tag in allaTaggar"
-          >#{{tag}}</a
-        >
-      </div>
+      <nav>
+        <div class="navTaggarDiv">
+          <a class="navTag" :href="`?q=${tag}`" v-for="tag in allaTaggar"
+            >#{{tag}}</a
+          >
+        </div>
+      </nav>
     </header>
     <main>
       <div class="wrapper">
         <!------------------------------SÖKSIDAN------------------------------>
         <!-------------------------------------------------------------------->
         <div class="receptList" v-if="page === 'list'">
-          <div v-for="recept in receptenFiltered" class="receptCard card">
+          <article v-for="recept in receptenFiltered" class="receptCard card">
             <a :href="`?r=${recept.name}`"
               ><img class="receptCardImage" :src="recept.bild" alt="Receptbild"
             /></a>
@@ -141,14 +143,14 @@
                 </div>
               </div>
             </div>
-          </div>
+          </article>
         </div>
 
         <!-------------------------------------------------------------------->
 
         <!----------------------------RECEPTSIDAN----------------------------->
         <!-------------------------------------------------------------------->
-        <div class="article card" v-if="page === 'article'">
+        <article class="article card" v-if="page === 'article'">
           <img class="receptPageImage" :src="recept.bild" alt="Receptbild" />
           <div class="receptPageBelowImage">
             <h2>{{recept.name}}</h2>
@@ -185,7 +187,7 @@
               {{instruktion}}
             </div>
           </div>
-        </div>
+        </article>
         <!-------------------------------------------------------------------->
       </div>
     </main>
