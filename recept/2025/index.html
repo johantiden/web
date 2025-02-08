@@ -116,7 +116,7 @@
                 </ul>
 
                 <div v-for="(instruktion, index) in recept.instruktioner">
-                  {{index+3}} <input type="checkbox" /> {{instruktion}}
+                  {{index+1}}. <input type="checkbox" /> {{instruktion}}
                 </div>
               </div>
             </div>
@@ -157,7 +157,7 @@
                   <input type="checkbox" />
                   <span class="checkmark"></span>
                 </label>
-                {{index+1}}
+                {{index+1}}.
               </span>
               {{instruktion}}
             </div>
