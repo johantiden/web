@@ -151,9 +151,11 @@
           <img class="receptPageImage" :src="recept.bild" alt="Receptbild" />
           <div class="receptPageBelowImage">
             <h2>{{recept.name}}</h2>
-            <a class="cardTag" :href="`?q=${tag}`" v-for="tag in recept.tags"
-              >#{{tag}}</a
-            >
+            <div class="cardTags">
+              <a class="cardTag" :href="`?q=${tag}`" v-for="tag in recept.tags"
+                >#{{tag}}</a
+              >
+            </div>
 
             <div class="ingrediens" v-for="ingrediens in recept.ingredienser">
               <span>

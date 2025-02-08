@@ -99,13 +99,18 @@ header {
 
   h1 {
     text-align: center;
-    color: white;
+    color: black;
     text-shadow: 2px 2px 2px black;
     font-size: 70px;
   }
 }
 
 a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
   text-decoration: none;
   color: black;
 }
