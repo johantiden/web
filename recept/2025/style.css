@@ -202,7 +202,7 @@ main {
   align-items: center;
   flex: 0;
   justify-content: space-between;
-  min-width: 90px;
+  min-width: 100px;
   /* background-color: red; */
   text-align: right;
   gap: 0.5rem;
