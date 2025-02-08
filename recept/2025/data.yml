@@ -39,7 +39,7 @@
     - 4 st:Vitlöksklyftor
     - 400 g:Krossade tomater
     - 2 dl:Vatten
-    - 1 st:Buljontärning "kött"
+    - 1 st:Buljongtärning "kött"
     - 2 msk:Franska örter
     - 2 dl:Crème fraiche
     - 500 g:Pasta
@@ -66,7 +66,7 @@
     - 4 st:Vitlöksklyftor
     - 400 g:Krossade tomater
     - 4 dl:Mjölk
-    - 1 st:Buljontärning "kött"
+    - 1 st:Buljongtärning "kött"
     - 2 msk:Franska örter
     - 500 g:Lasagneplattor
     - 200 g:Riven ost
@@ -96,7 +96,7 @@
     - 450 g:Fryst spenat
     - 5 dl:Vatten
     - 3 dl:Vispgrädde
-    - 2 st:Buljontärningar "Grönsak"
+    - 2 st:Buljongtärningar "Grönsak"
     - 4 st:Ägg, kokta
     - salt, peppar, chili
   instruktioner:
@@ -256,7 +256,7 @@
   ingredienser:
     - Färsk gräslök, finhackad
     - 4 dl:vatten
-    - 1 st:Buljontärning "Grönsak"
+    - 1 st:Buljongtärning "Grönsak"
     - 1 tsk:Alltingsmakargodarekrydda
     - Peppar
     - Olja
@@ -275,9 +275,28 @@
     - Ida
     - Soppa
 
-
-
-
-
-
+- name: Torsk i ugn med dill- och citronsås
+  ingredienser:
+    - 600 g:Torskfilé, tinad
+    - 2 dl:Crème fraiche
+    - 1 st:Buljongtärning "Fisk"
+    - 1 dl:Vatten
+    - 20 g:Dill
+    - 1 st:Citron
+    - 250 g:Broccoli, i buketter
+    - salt, peppar
+  instruktioner:
+    - Låt fisken rinna av ordentligt
+    - Sätt ugnen på 225°C
+    - Lägg fisken i en ugnssäker form. Salta och peppra
+    - Koka upp crème fraiche med buljongtärning och vatten i en kastrull.
+    - Smaka av med salt och peppar
+    - Hacka dillen och rör ner i såsen.
+    - Skölj och riv yttersta skalet av citronen och rör ner. Smaka av med citronsaft
+    - Häll såsen över fisken och tillaga mitt i ugnen ca 15 minuter
+    - Koka broccoli mjukt några minuter i saltat vatten. Låt rinna av.
+    - Servera fisken med broccoli, potatis eller ris och resten av citronen skuren i klyftor.
+  bild: https://assets.icanet.se/e_sharpen:80,q_auto,dpr_1.25,w_718,h_718,c_lfill/imagevaultfiles/id_232308/cf_259/torsk_i_ugn_med_dill-_och_citronsas.jpg
+  tags:
+    - Fisk
 
