@@ -200,3 +200,19 @@
   tags:
     - Lätt
 
+- name: Skagenröra 
+  ingredienser:
+    - 6 msk:Majonnäs 
+    - 1 burk:Skalade räkor
+    - 2 tsk:Finkornig rom
+    - :Citronsaft
+    - :Dill
+  instruktioner:
+    - Blanda majonnäs, rom och dill i en bunke
+    - Tillsätt citronsaft så det smakar som du vill
+    - Ta fram en sil och häll i räkorna så att vattnet silas ut i diskhon
+    - Rensa bort eventuella skal från räkorna
+    - Häll räkorna i en ny skål och blanda i så mycket av såsen du vill för rätt konsistens 
+  bild:
+  tags:
+    - Lätt
