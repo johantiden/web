@@ -109,14 +109,34 @@
 
               <!-- NOTE that receptCardInstruction is only visible when printing! -->
               <div class="receptCardInstruction">
-                <ul>
-                  <li v-for="ingrediens in recept.ingredienser">
-                    {{ingrediens}}
-                  </li>
-                </ul>
+                <div
+                  class="ingrediens"
+                  v-for="ingrediens in recept.ingredienser"
+                >
+                  <span>
+                    <label class="container">
+                      <input type="checkbox" />
+                      <span class="checkmark"></span>
+                    </label>
 
-                <div v-for="(instruktion, index) in recept.instruktioner">
-                  {{index+1}}. <input type="checkbox" /> {{instruktion}}
+                    {{ingrediens.qty}} </span
+                  >{{ingrediens.text}}
+                </div>
+
+                <hr />
+
+                <div
+                  class="instruktion"
+                  v-for="(instruktion, index) in recept.instruktioner"
+                >
+                  <span>
+                    <label class="container">
+                      <input type="checkbox" />
+                      <span class="checkmark"></span>
+                    </label>
+                    {{index+1}}.
+                  </span>
+                  {{instruktion}}
                 </div>
               </div>
             </div>
