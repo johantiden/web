@@ -254,6 +254,10 @@ input {
       border: none;
     }
 
+    .receptCard:last-of-type {
+      page-break-after: avoid;
+    }
+
     .receptCardInstruction {
         display: block;
     }
