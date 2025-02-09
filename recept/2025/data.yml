@@ -300,7 +300,7 @@
   tags:
     - Fisk
 
-- name: frukostbullar
+- name: Frukostbullar
   ingredienser:
     - 0,25 pkt:Jäst
     - 500 ml:Vatten
@@ -318,4 +318,6 @@
     - Klutta ut 12 högar av degen på pappret
     - Ta på salt eller annan topping
     - Ställ in plåten i ugnen i 10-12 min. Bröden ska ha lite färg
-
+  bild: https://assets.icanet.se/e_sharpen:80,q_auto,dpr_1.25,w_718,h_718,c_lfill/imagevaultfiles/id_240441/cf_259/kallarfranska.jpg
+  tags:
+    - Baka
