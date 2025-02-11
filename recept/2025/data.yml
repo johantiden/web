@@ -325,7 +325,7 @@
 
 - name: Dragonkyckling
   ingredienser:
-    - 700 gram:Kycklinglårfilé 
+    - 700 g:Kycklinglårfilé
     - 1 st:Gul lök, hackad
     - 1 st:Vitlöksklyfta, hackad
     - 3 dl:Matlagningsgrädde 
@@ -345,4 +345,30 @@
     - Smaka av med salt och peppar
   bild: https://img.koket.se/wide-mega/dragonkyckling-med-ris.jpg.webp
   tags: 
-    
+
+- name: Stekt lax med potatis
+  ingredienser:
+    - 800 g:Lax, tinad
+    - 600 g:Potatis, skalad
+    - 1 st:Citron
+    - Salt och peppar
+    - Ris
+  instruktioner:
+    - Koka potatisen på låg värme
+    - Ta fram och torka av fisken på en skärbräda
+    - Salta fisken lätt på alla sidor
+    - Förbered grönsaker, gärna ärtor
+    - Förbered sås
+    - Duka
+    - När det är ca 10 minuter kvar på potatisen, sätt på två gjutgärnspannor varmt (7-8)
+    - När stekpannorna är riktigt varma, lägg i laxen med "runda" sidan nedåt
+    - Se till att det är varmt så det fräser men inte ryker (7)
+    - Vänd när undersidan är lagom brun
+    - Stäng av värmen när undersidan är lätt brun och insidan fortfarande har lite rått kvar
+    - Låt laxen steka klart på eftervärmen
+    - Glöm inte potatisen!
+    - Servera direkt
+  bild: https://i.pinimg.com/originals/f6/84/5e/f6845e32a748beea91bb4e130f5dab81.jpg
+  tags:
+    - Fisk
+
