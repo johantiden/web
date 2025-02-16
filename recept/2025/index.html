@@ -51,6 +51,10 @@
           .flatMap((recept) => recept.tags)
           .filter(onlyUnique)
           .sort(),
+        allaKategorier: allaRecepten
+          .map((recept) => recept.kategori)
+          .filter(onlyUnique)
+          .sort(),
         filter: q,
         recept: allaRecepten.filter((recept) => recept.name === r)[0],
         title: title,
@@ -82,13 +86,17 @@
       <a href="?q"><h1>Tidéns fantastiska familjereceptssamlingsportal</h1></a>
 
       <input id="sök" type="text" v-model="filter" placeholder="Sök" />
-      <nav>
-        <div class="navTaggarDiv">
-          <a class="navTag" :href="`?q=${tag}`" v-for="tag in allaTaggar"
-            >#{{tag}}</a
-          >
-        </div>
-      </nav>
+      <div class="navTaggarDiv">
+        <a
+          class="navTag"
+          :href="`?q=${kategori}`"
+          v-for="kategori in allaKategorier"
+          >{{kategori}}</a
+        >
+      </div>
+      <div class="navTaggarDiv">
+        <a :href="`?q=${tag}`" v-for="tag in allaTaggar">#{{tag}}</a>
+      </div>
     </header>
     <main>
       <div class="wrapper">

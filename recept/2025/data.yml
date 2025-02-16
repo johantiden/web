@@ -27,6 +27,7 @@
     - Häll i baconen i grytan. Rör om försiktigt
     - Strössla resten av persiljan på toppen
   bild: https://oldcutkitchen.com/wp-content/uploads/2020/04/IMG_4807-1024x682.jpg
+  kategori: Varmrätt
   tags:
     - Filip
     - Lätt
@@ -54,6 +55,7 @@
     - Smaka/färga av med sojan
     - Smaka av med salt, peppar, chili
   bild: https://res.cloudinary.com/coopsverige/image/upload/f_auto,fl_progressive,q_90,g_center,h_800,w_800/v1679315482/cloud/277230.jpg
+  kategori: Varmrätt
   tags:
     - Lätt
     - Filip
@@ -84,6 +86,7 @@
     - Diska 🥰
     - Servera gärna med krispig sallad
   bild: http://img.taste.com.au/ssatFAA2/taste/2016/11/roasted-vegetable-lasagne-80063-1.jpeg
+  kategori: Varmrätt
   tags:
     - Filip
     - SlängIResternaOckså
@@ -106,6 +109,7 @@
     - Smaka av med salt, peppar, chili
     - Skala äggen och skär i halvor
   bild: https://eu-central-1.linodeobjects.com/tasteline/2018/10/spenatsoppa-med-agghalva.jpg
+  kategori: Varmrätt
   tags:
     - Lätt
     - vegetariskt
@@ -128,6 +132,7 @@
     - Häll i mer havregryn om det är för kladdigt. Blanda med händerna
     - Rulla bollar i händerna, vänd försiktigt på tallriken så att garnityrer fastnar
   bild: https://assets.icanet.se/e_sharpen:80,q_auto,dpr_1.25,w_718,h_718,c_lfill/imagevaultfiles/id_240269/cf_259/chokladbollar.jpg
+  kategori: Godis
   tags:
     - godis
     - Filip
@@ -154,6 +159,7 @@
     - Spritsa eller kleta på med en sked på varje bit
     - Strössel
   bild: https://bakamedjosefine.com/wp-content/uploads/2020/12/apc_2062.jpg?w=1920&h=768&crop=1
+  kategori: Godis
   tags:
     - Ida
     - godis
@@ -176,6 +182,7 @@
     - Diska 🥰
     - Servera med sylt
   bild: https://cdn-rdb.arla.com/Files/arla-se/536038896/2a052d77-f4c4-4b65-bb00-891aa6495d48.jpg?crop=(0,30,0,-210)&w=1200&h=630&mode=crop&ak=f525e733&hm=5a385847
+  kategori: Varmrätt
   tags:
     - SlängIResternaOckså
     - Lätt
@@ -200,6 +207,7 @@
     - Koka upp och sänk värmen
     - Smaka av med salt, peppar, chili och eventuellt vatten
   bild: https://assets.icanet.se/e_sharpen:80,q_auto,dpr_1.25,w_718,h_718,c_lfill/imagevaultfiles/id_223427/cf_259/korvstroganoff_med_ris.jpg
+  kategori: Varmrätt
   tags:
     - Lätt
     - Filip
@@ -219,6 +227,7 @@
     - Gör till 8 st biffar
     - Stek biffarna i olja på medelvärme
   bild: https://undertian.com/wp-content/uploads/2018/06/morot-och-linsbiffar-654x654.jpg
+  kategori: Varmrätt
   tags:
     - vegetariskt
 
@@ -230,6 +239,7 @@
     - Koka pasta al dente
     - Blanda i makrillen
   bild: https://www.landleyskok.se/wp-content/uploads/2011/08/makrillpasta_DSC0002-540x437.jpg
+  kategori: Varmrätt
   tags:
     - Lätt
 
@@ -247,6 +257,7 @@
     - Rensa bort eventuella skal från räkorna
     - Häll räkorna i en ny skål och blanda i så mycket av såsen du vill för rätt konsistens
   bild: https://shared.cdn.smp.schibsted.com/v2/images/60da98a4-7d59-4c7a-b6be-a0ec52817e78?fit=crop&h=1126&w=1500&s=77c0f0a8d4bf0549cf771a782a743d6bab0ad00f
+  kategori: Förrätt
   tags:
     - Lätt
     - Lyxigt
@@ -269,6 +280,7 @@
     - Servera i små koppar, ät med tesked
     - Klart!
   bild: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.kD4OkKo-SKp3ZmBUTzYkkQHaE7%26pid%3DApi&f=1&ipt=3c32ebd74580d08b94895a0007c6cc9bf0297f08230e712a27124ba31cc7d416&ipo=images
+  kategori: Förrätt
   tags:
     - Lyxigt
     - Förrätt
@@ -297,6 +309,7 @@
     - Koka broccoli mjukt några minuter i saltat vatten. Låt rinna av.
     - Servera fisken med broccoli, potatis eller ris och resten av citronen skuren i klyftor.
   bild: https://assets.icanet.se/e_sharpen:80,q_auto,dpr_1.25,w_718,h_718,c_lfill/imagevaultfiles/id_232308/cf_259/torsk_i_ugn_med_dill-_och_citronsas.jpg
+  kategori: Varmrätt
   tags:
     - Fisk
 
@@ -322,6 +335,7 @@
   bild: https://assets.icanet.se/e_sharpen:80,q_auto,dpr_1.25,w_718,h_718,c_lfill/imagevaultfiles/id_240441/cf_259/kallarfranska.jpg
   tags:
     - Baka
+  kategori: Bakning
 
 - name: Dragonkyckling
   ingredienser:
@@ -344,7 +358,8 @@
     - Låt sjuda några minuter
     - Smaka av med salt och peppar
   bild: https://img.koket.se/wide-mega/dragonkyckling-med-ris.jpg.webp
-  tags: 
+  tags: kyckling
+  kategori: Varmrätt
 
 - name: Stekt lax med potatis
   ingredienser:
@@ -371,4 +386,23 @@
   bild: https://i.pinimg.com/originals/f6/84/5e/f6845e32a748beea91bb4e130f5dab81.jpg
   tags:
     - Fisk
+  kategori: Varmrätt
 
+- name: Äggmacka
+  ingredienser:
+    - 2 st:Rostbröd
+    - Bregott
+    - 2 st:Ägg
+    - Kaviar
+  instruktioner:
+    - Lägg rostbröden i brödrosten men sätt inte på än
+    - Börja steka äggen
+    - När äggen kommit halvvägs, sätt på brödrosten så att bröd och ägg är klara samtidigt
+    - Smöra brödet
+    - Lägg på ett ägg på varje bröd
+    - Garnera med kaviar
+    - Mumsa i dig
+  bild: https://assets.icanet.se/q_auto,f_auto/imagevaultfiles/id_71625/cf_259/aggmacka-pa-grovt-brod.jpg
+  kategori: Frukost
+  tags:
+    - Bröd
