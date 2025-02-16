@@ -406,3 +406,32 @@
   kategori: Frukost
   tags:
     - Bröd
+
+- name: Tomatsoppa med vitlöksbröd
+  ingredienser:
+    - 1 st:Gul lök, finhackad
+    - 2 paket:Krossade tomater
+    - 2 msk:Smör
+    - 2 dl:Vatten
+    - 1 dl:Vispgrädde
+    - 2 st:Buljongtärningar "Grönsak"
+    - Vitlöksbröd, på en plåt
+    - 2 msk:Färska eller frysta örter (t.ex. persilja)
+    - salt, peppar
+
+  instruktioner:
+    - Sätt ugnen på 220 grader
+    - Stek löken mjuk i olja - i en stor kastrull
+    - Häll i vatten, krossade tomater, smör, grädde, buljontärningar
+    - Lägg in bröden i ugnen
+    - Koka upp och sänk sedan värmen
+    - Låt puttra i 10 minuter
+    - När bröden är klara, strössla på örterna över soppan
+    - Stäng av värmen och servera!
+  bild: https://www.recepten.se/bilder/recept/367/main/l/tomatsoppa.jpg
+  kategori: Varmrätt
+  tags:
+    - Soppa
+
+
+
