@@ -462,3 +462,23 @@
 
 
 
+- name:  Våfflor
+  ingredienser:
+    - 50 g:Smör - smält
+    - 1.75 dl:Mjöl
+    - 1 tsk:Bakpulver
+    - 1 st:Ägg
+  instruktioner:
+    - Smält smöret
+    - Sätt på våffeljärnet så det hinner bli varmt
+    - Blanda mjöl och bakpulver noga i en bunken
+    - Häll i mjölken och rör om noga
+    - Häll i ägg och blanda noga
+    - Häll i smöret långsamt och rör om medans du häller
+    - Smörj våffeljärnet och börja grädda våfflorna!
+
+  bild: https://images.arla.com/recordid/19432B60-DD5A-4BB5-8104C0A123F33BE2/vafflor.jpg?width=750&height=530&mode=crop&format=webp
+  kategori: Frukost
+  tags:
+    - Lätt
+
