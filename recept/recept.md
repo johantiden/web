@@ -116,7 +116,7 @@
 
 ---
 
-1. Smält mörk choklad och sirap i en stor kastrull på låg värme. Man kan behöva en lite sked för att skrapa ur sirapen.
+1. Smält mörk choklad och sirap i en stor kastrull på låg värme. Man kan behöva en lite sked för att skrapa ur sirapen
 1. Blanda i rispuffar och marshmallows
 1. Smeta ut blandningen platt i en bakform 
 1. Ställ in i kylen och låt svalna i några timmar
@@ -125,3 +125,30 @@
 1. Smält vit cholkad och blanda i karamellfärg
 1. Spritsa eller kleta på med en sked på varje bit
 1. Strössel
+
+<div style="page-break-after: always;"></div>
+
+# Frasiga pannkakor
+
+- 1.7 dl Vetemjöl
+- 1 msk Strösocker
+- 1 krm Salt
+- 3.3 dl Mjölk
+- 2 st Ägg
+- 1 dl Kolsyrat vatten
+- Smör
+
+---
+
+1. Sätt på stekpannor så de hinner bli varma (6)
+1. Blanda de torra ingredienserna i en bunka, för att få bort klumpar
+1. Häll i hälften av mjölken och vispa till en jämn smet, för att få bort klumpar
+1. Häll i resten av mjölken och vispa
+1. Vispa i äggen
+1. Förbered smör, stekspade, serveringsfat (tallrik?), skopa till smeten
+1. När du är redo att steka, häll försiktigt i kolsyrade vattnet, blanda försiktigt med skopan.
+1. Stek direkt på medelhög värme: Lägg en klick smör i stekpannan och vänta tills det slutar låta. Hellre för lite smet än för mycket, så att kanterna blir krispiga. Hellre lite lägre värme så att vattnet hinner dunsta innan pannkakorna blir för mörka.
+
+<div style="page-break-after: always;"></div>
+
+
