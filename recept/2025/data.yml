@@ -433,7 +433,7 @@
   tags:
     - Soppa
 
-- name:  Idas förrättssoppa
+- name: Idas förrättssoppa
   ingredienser:
     - 2 dl:Vatten
     - 2 dl:Mjölk
@@ -462,7 +462,7 @@
 
 
 
-- name:  Våfflor
+- name: Våfflor
   ingredienser:
     - 50 g:Smör - smält
     - 1.75 dl:Mjöl
@@ -484,7 +484,7 @@
 
 
 
-- name:  Köttbullar
+- name: Köttbullar
   ingredienser:
     - 1 kg:Blandfärs
     - 3 tsk:Salt
@@ -513,4 +513,29 @@
   kategori: Varmrätt
   tags:
     - SlängIResternaOckså
+
+
+- name: Frasiga pannkakor
+  ingredienser:
+    - 1.7 dl:Vetemjöl
+    - 1 msk:Strösocker
+    - 1 krm:Salt
+    - 3.3 dl:Mjölk
+    - 2 st:Ägg
+    - 1 dl:Kolsyrat vatten
+    - Smör
+  instruktioner:
+    - Sätt på stekpannor så de hinner bli varma (6)
+    1. Blanda de torra ingredienserna i en bunka, för att få bort klumpar
+    1. Häll i hälften av mjölken och vispa till en jämn smet, för att få bort klumpar
+    1. Häll i resten av mjölken och vispa
+    1. Vispa i äggen
+    1. Förbered smör, stekspade, serveringsfat (tallrik?), skopa till smeten
+    1. När du är redo att steka, häll försiktigt i kolsyrade vattnet, blanda försiktigt med skopan.
+    1. Stek direkt på medelhög värme: Lägg en klick smör i stekpannan och vänta tills det slutar låta. Hellre för lite smet än för mycket, så att kanterna blir krispiga. Hellre lite lägre värme så att vattnet hinner dunsta innan pannkakorna blir för mörka.
+
+  bild: https://www.koket.se/mormors-pannkakor
+  kategori: Frukost
+
+
 
